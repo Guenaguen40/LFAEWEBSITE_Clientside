@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,inital-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link href="navbar.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+       
+        <meta name="msapplication-TileColor" content="#ffc40d">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" sizes="180x180" href="Assets\Favicon\apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Assets\Favicon\favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Assets\Favicon\favicon-16x16.png">
+        <link rel="manifest" href="Assets\Favicon\site.webmanifest">
+
+    </head>
+    <body>
+        <div class="container">
+            <!--start of first navbar-->
+            <div class="header">
+            <div><h1 id="speacil-txt">Free Shipping for The First Ten Custmors</h1></div>
+            <div id="navbar" class="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a onclick="myFunction(this)" class="dropbtn" href="#">USD <i class="bi bi-caret-down icon"></i></a>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">EUR</a></li>
+                        <li><a href="#">TND</a></li>
+                    </ul class="dropdown">
+                    </li>
+                    <li class="dropdown">
+                        <a onclick="myFunction(this)" class="dropbtn" href="#">English <i class="bi bi-caret-down icon"></i></a>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Franch</a></li>
+                        <li><a href="#">Arabic</a></li>
+                        <li><a href="#">Italien</a></li>
+                        <li><a href="#">German</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a onclick="myFunction(this)" class="dropbtn" href="#">My Account <i class="bi bi-caret-down icon"></i></a>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a href="#">Sign in </a></li>
+                        <li><a href="#">Register </a></li>
+                    </ul>
+                    </li>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--end of first navbar-->
+
+<!--start of top nav-->
+        <div id="tph" class="header_top">
+            <div class="logo">
+            <a href="#"><img src="Assets/Favicon/image20.jpeg" class="logo" alt=""></a>
+            </div>
+  <ul class="top_nav">
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link" href="#">Courses</a></li>
+            <li class="dropdown_top">
+                <a class="dropbtn_top" href="#">Services</a>
+                 <div class="dropdown-content-top">
+                     <a class="link" href="#">Selling</a>
+                     <a class="link" href="#">Buying</a>
+                     <a class="link" href="#">Shipping</a>
+                 </div>
+                </li>
+            <li class="dropdown_top">
+                <a class="dropbtn_top" href="#">Invest</a>
+            <div class="dropdown-content-top">
+            <a class="link" href="#">Deposit</a>
+            <a class="link" href="#">Invested</a>
+            <a class="link" href="#">Projects</a>
+            </div>
+        </li>
+            <li  class="dropdown_top">
+                <a class="dropbtn_top"  href="#">Jobs</a>
+            <div class="dropdown-content-top">
+                <a class="link" href="#">Offers</a>
+                <a class="link" href="#">Applications</a>
+                <a class="link" href="#">How</a>
+            </div></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            </ul>
+            <ul id="myDIV" class="icon_top">
+                
+            <li><button class="btn" href="#"><i class="bi bi-search"></i></button></i></li>
+            <li><button class="btn active" href="#"><i class="bi bi-bag"></i></button></li>
+            <li><button class="btn" href="#"><i class="bi bi-person"></i></button></li>
+               
+        </ul>
+         <!-- Start Search Popap -->
+            <div class="search__area">
+                <div class="container" >
+                    <div class="row" >
+                        <div class="col-md-12" >
+                            <div class="search__inner">
+                                <form action="#" method="get">
+                                    <input placeholder="Search here... " type="text">
+                                    <button type="submit"></button>
+                                </form>
+                                <div class="search__close__btn">
+                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Search Popap -->
+<!--hamburger_menu-->
+<div class="hamburger">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+      <ul class="reponsive-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Invest</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blog</a></li>
+              </ul>
+</div>
+</div>
+
+    </div>
+<!--end of top nav-->
+  </div>
+  </body>
+  
+<!--hamburger_end_menu-->
+
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

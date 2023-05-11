@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+:root{
+    --RockBlue: #8c93bc;
+    --Zinnwalsite: #e8c9aa;
+    --Tuna: #494d53;
+    --DesertStorm: #f1ebe6;
+    --DarkTan: #9c6851;
+    --Jaffa: #df804c;
+    --Fallow: #bca373;
+    --greysuit: #908f97;
+    --white: #fff;
+    --black: #000;
+}
+.navbar{
+background: var(--greysuit);
+height: 80px;
+position: relative;
+}
+.header{
+  
+}

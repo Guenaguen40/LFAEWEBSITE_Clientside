@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
+<title>T-shirt</title>
+<g id="E-commerce-icons">
+	<g id="T-shirt" transform="translate(-1308.000000, -412.000000)">
+		<g transform="translate(1308.000000, 412.000000)">
+			<rect id="Rectangle" fill="#FFFFFF" fill-opacity="0" width="128" height="128"/>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-443.3319" y1="445.0568" x2="-442.5262" y2="446.6007" gradientTransform="matrix(124.0518 0 0 -116.6356 55006.1367 52056.4336)">
+				<stop  offset="0" style="stop-color:#AE68FF"/>
+				<stop  offset="1" style="stop-color:#7991FF"/>
+			</linearGradient>
+			<path fill="url(#SVGID_1_)" d="M77.7,10.7c3.6-3.6,8.7-5.3,13.7-4.5l0,0l34.5,5.3l-6.7,47.1h-12.6v64H21.3v-64H8.7L2,11.5
+				l34.5-5.3c5-0.8,10.1,0.9,13.7,4.5l0,0l6.8,6.8c3.8,3.8,10,3.8,13.8,0l0,0L77.7,10.7z M89.9,16.8c-1.7-0.3-3.4,0.3-4.6,1.5l0,0
+				l-6.8,6.8c-8,8-20.9,8-28.9,0l0,0l-6.8-6.8c-1.2-1.2-2.9-1.8-4.6-1.5l0,0L14,20.5L18,48h3.4c5.6,0,10.2,4.4,10.6,9.9l0,0l0,0.8
+				V112h64V58.7c0-5.6,4.4-10.2,9.9-10.6l0,0l0.8,0h3.4l3.9-27.5L89.9,16.8z"/>
+		</g>
+	</g>
+</g>
+</svg>
